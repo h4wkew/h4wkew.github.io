@@ -1,52 +1,52 @@
 {
     "projects": [
         {
-            "date": "2023",
-            "name": "Wireshrimp",
-            "description": "Network protocol analyzer allowing real-time traffic monitoring (yes just a Wireshark clone).",
-            "tech_stack": "C++"
-        },
-        {
-            "date": "2023",
-            "name": "SecureChat",
+            "date": "2024",
+            "name": "EncryptTalk",
             "description": "Encrypted peer-to-peer messaging application.",
-            "tech_stack": "C"
+            "platform": "Linux",
+            "tech_stack": "C",
+            "in_progress": true
         },
         {
-            "date": "2023",
-            "name": "Forge",
-            "description": "Collection of scripts simulating cyber threats, including floods, packet corruption, and eavesdropping.",
-            "tech_stack": "Python"
+            "date": "2024",
+            "name": "Keylogger",
+            "description": "Undetectable and persistent keylogger written in rust.",
+            "platform": "Linux & Windows",
+            "tech_stack": "Rust",
+            "in_progress": false
+        },
+        {
+            "date": "2024",
+            "name": "BotCommander",
+            "description": "Web-based interface for seamless botnet management.",
+            "platform": "Linux & Windows",
+            "tech_stack": "C, Javascript",
+            "in_progress": false
+        },
+        {
+            "date": "2024",
+            "name": "ThreatForge",
+            "description": "Collection of Python scripts for simulating cyber threats, including network floods, packet tampering, and snooping.",
+            "platform": "Linux & Windows",
+            "tech_stack": "Python",
+            "in_progress": false
         },
         {
             "date": "2023",
             "name": "Guard",
-            "description": "Rule-based Network Intrusion Detection System.",
-            "tech_stack": "C"
+            "description": "Rule-based Network Intrusion Detection System for real-time threat detection and prevention.",
+            "platform": "Linux",
+            "tech_stack": "C",
+            "in_progress": false
         },
         {
             "date": "2023",
-            "name": "Botnet",
-            "description": "Web interface to manage botnet.",
-            "tech_stack": "C, Javascript"
-        },
-        {
-            "date": "2023",
-            "name": "Keylogger",
-            "description": "Efficient and undetectable keylogger.",
-            "tech_stack": "Rust"
-        },
-        {
-            "date": "2023",
-            "name": "Botnet",
-            "description": "Web interface to manage botnet.",
-            "tech_stack": "C, Javascript"
-        },
-        {
-            "date": "2023",
-            "name": "Keylogger",
-            "description": "Efficient and undetectable keylogger.",
-            "tech_stack": "Rust"
+            "name": "Wireshrimp",
+            "description": "Network packet analyzer allowing real-time traffic monitoring.",
+            "platform": "Linux & Windows",
+            "tech_stack": "C++",
+            "in_progress": false
         }
     ]
 }

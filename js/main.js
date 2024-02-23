@@ -20,12 +20,16 @@ document.addEventListener('DOMContentLoaded', async (_event) => {
 });
 
 function add_project(project) {
-    const { date, name, description, tech_stack } = project;
+    const { date, name, description, platform, tech_stack, in_progress } = project;
+
     const template = 
     `<tr>
         <td>${date}</td>
-        <td class="project-name">${name}</td>
+        <td class="project-name">${name}
+            ${in_progress ? '<span class="project-in-progress">(in progress)</span>' : ''}
+        </td>
         <td class="project-description">${description}</td>
+        <td>${platform}</td>
         <td>${tech_stack}</td>
     </tr>`;
 

@@ -21,3 +21,8 @@
 .project-description {
     text-align: justify;
 }
+
+.project-in-progress {
+    color: #DE3C4B;
+    font-size: 0.5rem;
+}
