@@ -1,0 +1,52 @@
+{
+    "projects": [
+        {
+            "date": "2023",
+            "name": "Wireshrimp",
+            "description": "Network protocol analyzer allowing real-time traffic monitoring (yes just a Wireshark clone).",
+            "tech_stack": "C++"
+        },
+        {
+            "date": "2023",
+            "name": "SecureChat",
+            "description": "Encrypted peer-to-peer messaging application.",
+            "tech_stack": "C"
+        },
+        {
+            "date": "2023",
+            "name": "Forge",
+            "description": "Collection of scripts simulating cyber threats, including floods, packet corruption, and eavesdropping.",
+            "tech_stack": "Python"
+        },
+        {
+            "date": "2023",
+            "name": "Guard",
+            "description": "Rule-based Network Intrusion Detection System.",
+            "tech_stack": "C"
+        },
+        {
+            "date": "2023",
+            "name": "Botnet",
+            "description": "Web interface to manage botnet.",
+            "tech_stack": "C, Javascript"
+        },
+        {
+            "date": "2023",
+            "name": "Keylogger",
+            "description": "Efficient and undetectable keylogger.",
+            "tech_stack": "Rust"
+        },
+        {
+            "date": "2023",
+            "name": "Botnet",
+            "description": "Web interface to manage botnet.",
+            "tech_stack": "C, Javascript"
+        },
+        {
+            "date": "2023",
+            "name": "Keylogger",
+            "description": "Efficient and undetectable keylogger.",
+            "tech_stack": "Rust"
+        }
+    ]
+}

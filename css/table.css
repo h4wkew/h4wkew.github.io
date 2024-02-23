@@ -1,0 +1,23 @@
+.projects {
+    width: 80%;
+    color: #008a8a;
+}
+
+.projects, th, td {
+    border: 1px solid #000055;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+.projects, td {
+    font-size: 0.6rem;
+}
+
+.project-name {
+    color: #00ffff;
+}
+
+.project-description {
+    text-align: justify;
+}
