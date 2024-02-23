@@ -18,6 +18,11 @@
     color: #00ffff;
 }
 
+.project-name:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .project-description {
     text-align: justify;
 }
