@@ -2,6 +2,14 @@
     "projects": [
         {
             "date": "2024",
+            "name": "obfusc8",
+            "description": "C/C++ source code obfuscation tool.",
+            "platform": "Linux & Windows",
+            "tech_stack": "Python",
+            "in_progress": true
+        },
+        {
+            "date": "2024",
             "name": "EncryptTalk",
             "description": "Encrypted peer-to-peer messaging application.",
             "platform": "Linux",
@@ -11,7 +19,7 @@
         {
             "date": "2024",
             "name": "Keylogger",
-            "description": "Undetectable and persistent keylogger written in rust.",
+            "description": "Polymorphic and persistent keylogger written in rust.",
             "platform": "Linux & Windows",
             "tech_stack": "Rust",
             "in_progress": false
