@@ -37,7 +37,7 @@
             "in_progress": true
         },
         {
-            "visible": false,
+            "visible": true,
             "date": "2024",
             "name": "keylogger",
             "description": "Polymorphic and persistent keylogger written in rust.",
