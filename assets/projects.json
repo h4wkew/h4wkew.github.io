@@ -30,7 +30,7 @@
         {
             "visible": true,
             "date": "2024",
-            "name": "BotCommander",
+            "name": "bot-commander",
             "description": "Web-based interface for seamless botnet management.",
             "platform": "Linux & Windows",
             "tech_stack": "C, Javascript",
@@ -39,7 +39,7 @@
         {
             "visible": false,
             "date": "2024",
-            "name": "Keylogger",
+            "name": "keylogger",
             "description": "Polymorphic and persistent keylogger written in rust.",
             "platform": "Linux & Windows",
             "tech_stack": "Rust",
@@ -48,7 +48,7 @@
         {
             "visible": true,
             "date": "2024",
-            "name": "ThreatForge",
+            "name": "threat-forge",
             "description": "Collection of Python scripts for simulating cyber threats, including network floods, packet tampering, and snooping.",
             "platform": "Linux & Windows",
             "tech_stack": "Python",
@@ -57,7 +57,7 @@
         {
             "visible": true,
             "date": "2023",
-            "name": "Guard",
+            "name": "guard",
             "description": "Rule-based Network Intrusion Detection System for real-time threat detection and prevention.",
             "platform": "Linux",
             "tech_stack": "C",
@@ -66,7 +66,7 @@
         {
             "visible": true,
             "date": "2023",
-            "name": "Wireshrimp",
+            "name": "wireshrimp",
             "description": "Network packet analyzer allowing real-time traffic monitoring.",
             "platform": "Linux & Windows",
             "tech_stack": "C++",
