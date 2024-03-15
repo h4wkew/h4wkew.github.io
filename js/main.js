@@ -20,8 +20,11 @@ document.addEventListener('DOMContentLoaded', async (_event) => {
 });
 
 function add_project(project) {
-    const { date, name, description, platform, tech_stack, in_progress } = project;
+    const { visible, date, name, description, platform, tech_stack, in_progress } = project;
 
+    if (!visible)
+        return;
+    
     const template = 
     `<tr>
         <td>${date}</td>
