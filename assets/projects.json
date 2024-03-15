@@ -1,6 +1,7 @@
 {
     "projects": [
         {
+            "visible": false,
             "date": "2024",
             "name": "obfusc8",
             "description": "C/C++ source code obfuscation tool.",
@@ -9,6 +10,7 @@
             "in_progress": true
         },
         {
+            "visible": false,
             "date": "2024",
             "name": "EncryptTalk",
             "description": "Encrypted peer-to-peer messaging application.",
@@ -17,6 +19,25 @@
             "in_progress": true
         },
         {
+            "visible": true,
+            "date": "2024",
+            "name": "synthetix",
+            "description": "Tool designed to generate customized wordlists from specified patterns and character sets.",
+            "platform": "Linux & Windows",
+            "tech_stack": "C",
+            "in_progress": true
+        },
+        {
+            "visible": true,
+            "date": "2024",
+            "name": "BotCommander",
+            "description": "Web-based interface for seamless botnet management.",
+            "platform": "Linux & Windows",
+            "tech_stack": "C, Javascript",
+            "in_progress": true
+        },
+        {
+            "visible": false,
             "date": "2024",
             "name": "Keylogger",
             "description": "Polymorphic and persistent keylogger written in rust.",
@@ -25,14 +46,7 @@
             "in_progress": false
         },
         {
-            "date": "2024",
-            "name": "BotCommander",
-            "description": "Web-based interface for seamless botnet management.",
-            "platform": "Linux & Windows",
-            "tech_stack": "C, Javascript",
-            "in_progress": false
-        },
-        {
+            "visible": true,
             "date": "2024",
             "name": "ThreatForge",
             "description": "Collection of Python scripts for simulating cyber threats, including network floods, packet tampering, and snooping.",
@@ -41,6 +55,7 @@
             "in_progress": false
         },
         {
+            "visible": true,
             "date": "2023",
             "name": "Guard",
             "description": "Rule-based Network Intrusion Detection System for real-time threat detection and prevention.",
@@ -49,6 +64,7 @@
             "in_progress": false
         },
         {
+            "visible": true,
             "date": "2023",
             "name": "Wireshrimp",
             "description": "Network packet analyzer allowing real-time traffic monitoring.",
