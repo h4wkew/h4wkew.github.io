@@ -7,7 +7,8 @@
             "description": "C/C++ source code obfuscation tool.",
             "platform": "Linux & Windows",
             "tech_stack": "Python",
-            "in_progress": true
+            "in_progress": true,
+            "url": ""
         },
         {
             "visible": false,
@@ -16,7 +17,8 @@
             "description": "Encrypted peer-to-peer messaging application.",
             "platform": "Linux",
             "tech_stack": "C",
-            "in_progress": true
+            "in_progress": true,
+            "url": ""
         },
         {
             "visible": true,
@@ -25,7 +27,8 @@
             "description": "Tool designed to generate customized wordlists from specified patterns and character sets.",
             "platform": "Linux & Windows",
             "tech_stack": "C",
-            "in_progress": true
+            "in_progress": true,
+            "url": "https://github.com/h4wkew/synthetix"
         },
         {
             "visible": true,
@@ -34,7 +37,8 @@
             "description": "Web-based interface for seamless botnet management.",
             "platform": "Linux & Windows",
             "tech_stack": "C, Javascript",
-            "in_progress": true
+            "in_progress": true,
+            "url": ""
         },
         {
             "visible": true,
@@ -43,7 +47,8 @@
             "description": "Polymorphic and persistent keylogger written in rust.",
             "platform": "Linux & Windows",
             "tech_stack": "Rust",
-            "in_progress": false
+            "in_progress": false,
+            "url": "https://github.com/h4wkew/keylogger"
         },
         {
             "visible": true,
@@ -52,7 +57,8 @@
             "description": "Collection of Python scripts for simulating cyber threats, including network floods, packet tampering, and snooping.",
             "platform": "Linux & Windows",
             "tech_stack": "Python",
-            "in_progress": false
+            "in_progress": false,
+            "url": "https://github.com/h4wkew/threat-forge"
         },
         {
             "visible": true,
@@ -61,7 +67,8 @@
             "description": "Rule-based Network Intrusion Detection System for real-time threat detection and prevention.",
             "platform": "Linux",
             "tech_stack": "C",
-            "in_progress": false
+            "in_progress": false,
+            "url": ""
         },
         {
             "visible": true,
@@ -70,7 +77,8 @@
             "description": "Network packet analyzer allowing real-time traffic monitoring.",
             "platform": "Linux & Windows",
             "tech_stack": "C++",
-            "in_progress": false
+            "in_progress": false,
+            "url": ""
         }
     ]
 }

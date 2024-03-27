@@ -1,7 +1,12 @@
-const projects_table = document.getElementById("container-projects");
+import { Notification } from './notification.js';
+
+const projects_table_element = document.getElementById("container-projects");
+
+const notification_element = document.getElementById("notification");
+const notification = new Notification(notification_element);
 
 document.addEventListener('DOMContentLoaded', async (_event) => {
-    if (projects_table === null)
+    if (projects_table_element === null)
     {
         throw new Error("Projects table not found");
     }
@@ -19,14 +24,32 @@ document.addEventListener('DOMContentLoaded', async (_event) => {
     }
 });
 
+projects_table_element.addEventListener('click', (event) => {
+    const target = event.target;
+    
+    if (!target.classList.contains('project-name'))
+        return;
+
+    const url = target.parentElement.getAttribute('data-url');
+
+    if (!url)
+    {
+        notification.show('info', 'This project is currently private and cannot be accessed yet. Be free to contact me on my email if you want to know more about it.', 8000);
+        return;
+    }
+
+    notification.show('success', 'Opening project', 2000);
+    window.open(url, '_blank');
+});
+
 function add_project(project) {
-    const { visible, date, name, description, platform, tech_stack, in_progress } = project;
+    const { visible, date, name, description, platform, tech_stack, in_progress, url } = project;
 
     if (!visible)
         return;
     
     const template = 
-    `<tr>
+    `<tr ${url.length > 0 ? `data-url="${url}"` : ''}>
         <td>${date}</td>
         <td class="project-name">${name}
             ${in_progress ? '<span class="project-in-progress">(in progress)</span>' : ''}
@@ -36,6 +59,6 @@ function add_project(project) {
         <td>${tech_stack}</td>
     </tr>`;
 
-    projects_table.innerHTML += template;
+    projects_table_element.innerHTML += template;
 }
 
