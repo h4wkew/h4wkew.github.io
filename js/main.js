@@ -34,7 +34,7 @@ projects_table_element.addEventListener('click', (event) => {
 
     if (!url)
     {
-        notification.show('info', 'This project is currently private and cannot be accessed yet. Be free to contact me on my email if you want to know more about it.', 8000);
+        notification.show('info', 'This project is currently private and cannot be accessed. Be free to contact me on my email if you want to know more about it.', 8000);
         return;
     }
 
