@@ -33,10 +33,10 @@
         {
             "visible": true,
             "date": "2024",
-            "name": "bot-commander",
-            "description": "Web-based interface for seamless botnet management.",
+            "name": "wargame",
+            "description": "Beginner-friendly CTF challenge focusing on the OWASP Top 10.",
             "platform": "Linux & Windows",
-            "tech_stack": "C, Javascript",
+            "tech_stack": "Javascript",
             "in_progress": true,
             "url": ""
         },
