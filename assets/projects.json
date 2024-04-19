@@ -54,7 +54,7 @@
             "visible": true,
             "date": "2023",
             "name": "guard",
-            "description": "Rule-based Network Intrusion Detection System for real-time threat detection and prevention.",
+            "description": "Rule-based and AI-driven Network Intrusion Detection System for real-time threat detection and prevention.",
             "platform": "Linux",
             "tech_stack": "C",
             "in_progress": false,
