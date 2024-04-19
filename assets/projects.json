@@ -11,22 +11,12 @@
             "url": ""
         },
         {
-            "visible": false,
-            "date": "2024",
-            "name": "EncryptTalk",
-            "description": "Encrypted peer-to-peer messaging application.",
-            "platform": "Linux",
-            "tech_stack": "C",
-            "in_progress": true,
-            "url": ""
-        },
-        {
             "visible": true,
             "date": "2024",
             "name": "synthetix",
             "description": "Tool designed to generate customized wordlists from specified patterns and character sets.",
             "platform": "Linux & Windows",
-            "tech_stack": "C",
+            "tech_stack": "C++",
             "in_progress": true,
             "url": "https://github.com/h4wkew/synthetix"
         },
@@ -44,9 +34,9 @@
             "visible": true,
             "date": "2024",
             "name": "keylogger",
-            "description": "Polymorphic and persistent keylogger written in rust.",
+            "description": "Polymorphic, persistent and stealth-enabled keylogger.",
             "platform": "Linux & Windows",
-            "tech_stack": "Rust",
+            "tech_stack": "C",
             "in_progress": false,
             "url": ""
         },
@@ -74,7 +64,7 @@
             "visible": true,
             "date": "2023",
             "name": "wireshrimp",
-            "description": "Network packet analyzer allowing real-time traffic monitoring.",
+            "description": "Network packet analyzer allowing real-time traffic monitoring. (wireshark-clone with less features)",
             "platform": "Linux & Windows",
             "tech_stack": "C++",
             "in_progress": false,
