@@ -48,7 +48,7 @@
             "platform": "Linux & Windows",
             "tech_stack": "Rust",
             "in_progress": false,
-            "url": "https://github.com/h4wkew/keylogger"
+            "url": ""
         },
         {
             "visible": true,
@@ -58,7 +58,7 @@
             "platform": "Linux & Windows",
             "tech_stack": "Python",
             "in_progress": false,
-            "url": "https://github.com/h4wkew/threat-forge"
+            "url": ""
         },
         {
             "visible": true,
